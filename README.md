@@ -73,7 +73,7 @@ Before you begin, ensure you have the following installed:
 
      ```bash
      source ~/ros2_ws/install/setup.bash
-     ros2 run my_package publisher_node
+     ros2 run my_package publisher
      ```
 
 2. **Launch the ROS 2 Subscriber Node:**
@@ -81,7 +81,7 @@ Before you begin, ensure you have the following installed:
 
      ```bash
      source ~/ros2_ws/install/setup.bash
-     ros2 run my_package subscriber_node
+     ros2 run my_package subscriber
      ```
 
 ### Project in Action
@@ -90,7 +90,7 @@ Once both nodes are running, you should see the publisher sending messages and t
 
 ### Customization
 
-- **Message Content**: You can modify the message content in the publisher node by editing the source code located in `~/ros2_ws/src/ROS2_project00/publisher_node.py`.
+- **Message Content**: You can modify the message content in the publisher node by editing the source code located in `~/ros2_ws/src/ROS2_project00/publisher.py`.
 - **Publishing Frequency**: Adjust the publishing rate by modifying the timer settings in the publisher node's code.
 
 ### Troubleshooting
